@@ -25,7 +25,7 @@ class StartScreen(Screen,Widget):
         self.bidi_text3 = get_display(reshaped_text)
         reshaped_text = arabic_reshaper.reshape(u"كتب السنّة النبويّة الشريفة")
         self.bidi_text4 = get_display(reshaped_text)
-        reshaped_text = arabic_reshaper.reshape(u"*هذا التطبيق وقف على روح:\n -الحاج خالد العاقل \n  -الحاج عبدالسلام العاقل \n -الحاج سامي الرفاعي \n  -الحاج محمدعلي الحكيم \n الرجاء قراءة الفاتحة...ولكم الأجر و الثواب.")
+        reshaped_text = arabic_reshaper.reshape(u" الرجاء قراءة الفاتحة...ولكم الأجر و الثواب.")
         self.bidi_text5 = get_display(reshaped_text)
         
     def mpage(self):
